@@ -26,7 +26,7 @@ public class GooglePageTest {
 	  
 	  System.out.println("Page Title.... " + driver.getTitle());
 	  driver.navigate().back();
-	  
+	  System.out.println("Page URL ...."+ driver.getCurrentUrl());
 	  System.out.println("Page Title after back().... " + driver.getTitle());
 	  driver.navigate().forward();
 	  System.out.println("Page URL ...."+ driver.getCurrentUrl());
