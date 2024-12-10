@@ -19,8 +19,8 @@ public class LoginTest {
 		driver.findElement(By.cssSelector("button.radius")).click();
 //		driver.findElement(By.className("fa fa-2x fa-sign-in")).click();
 //		driver.findElement(By.xpath("//i[@class='fa fa-2x fa-sign-in']")).click();
-//		driver.findElement(By.linkText("Elemental Selenium")).click();
-		driver.findElement(By.partialLinkText("Elemental")).click();
+		driver.findElement(By.linkText("Elemental Selenium")).click();
+		// driver.findElement(By.partialLinkText("Elemental")).click();
 	 
   }
 }
